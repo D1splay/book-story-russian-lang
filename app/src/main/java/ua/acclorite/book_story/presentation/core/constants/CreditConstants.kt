@@ -95,4 +95,13 @@ fun Constants.provideCredits() = listOf(
         ),
         website = "https://codeberg.org/Codeberg/GetItOnCodeberg"
     ),
+    Credit(
+        name = "D1splay",
+        source = "GitHub",
+        credits = listOf(
+            UIText.StringResource(R.string.credits_translation),
+            UIText.StringResource(R.string.credits_contribution)
+        ),
+        website = "https://github.com/d1splay"
+    ),
 )

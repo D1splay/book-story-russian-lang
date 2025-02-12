@@ -8,6 +8,7 @@ package ua.acclorite.book_story.presentation.core.constants
 
 fun Constants.provideLanguages() = listOf(
     Pair("en", "English"),
+    Pair("ru", "Русский"),
     Pair("uk", "Українська"),
     Pair("de", "Deutsch"),
     Pair("ar", "اَلْعَرَبِيَّةُ"),

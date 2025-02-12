@@ -27,13 +27,6 @@ fun Constants.provideAboutBadges() = listOf(
         url = "https://www.reddit.com/user/Acclorite/"
     ),
     Badge(
-        id = "tryzub",
-        drawable = R.drawable.tryzub,
-        imageVector = null,
-        contentDescription = R.string.tryzub_content_desc,
-        url = null
-    ),
-    Badge(
         id = "patreon",
         drawable = R.drawable.patreon,
         imageVector = null,

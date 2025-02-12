@@ -14,7 +14,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
-import ua.acclorite.book_story.R
 import ua.acclorite.book_story.presentation.core.constants.Constants
 import ua.acclorite.book_story.presentation.core.constants.provideAboutBadges
 import ua.acclorite.book_story.presentation.core.util.showToast
@@ -32,26 +31,17 @@ fun AboutBadges(
         horizontalArrangement = Arrangement.SpaceBetween
     ) {
         items(
-            Constants.provideAboutBadges(),
+            Constants.provideAboutBadges().filterNot { it.id == "tryzub" },
             key = { it.id }
         ) { badge ->
             AboutBadgeItem(badge = badge) {
-                when (badge.id) {
-                    "tryzub" -> {
-                        context.getString(R.string.slava_ukraini)
-                            .showToast(context = context, longToast = false)
-                    }
-
-                    else -> {
-                        badge.url?.let {
-                            navigateToBrowserPage(
-                                AboutEvent.OnNavigateToBrowserPage(
-                                    page = it,
-                                    context = context
-                                )
-                            )
-                        }
-                    }
+                badge.url?.let {
+                    navigateToBrowserPage(
+                        AboutEvent.OnNavigateToBrowserPage(
+                            page = it,
+                            context = context
+                        )
+                    )
                 }
             }
         }
