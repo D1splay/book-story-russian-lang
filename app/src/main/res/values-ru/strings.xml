@@ -8,12 +8,6 @@
 <!-- Basic Strings -->
 <string name="default_string">"По умолчанию"</string>
 
-<!-- Notifications -->
-<string name="updates_notification_channel">Новые обновления</string>
-<string name="updates_notification_title">Новое обновление Book\'s Story!</string>
-<string name="updates_notification_desc">Обновление %1$s вышло! Нажмите, чтобы перейти на страницу релиза.</string>
-<string name="updates_notification_action">Скачать</string>
-
 <!-- Screens -->
 <string name="library_screen">Библиотека</string>
 <string name="history_screen">История</string>
@@ -30,7 +24,6 @@
 <string name="delete_book">Удалить книгу?</string>
 <string name="move_book">Переместить книгу?</string>
 <string name="delete_history">Удалить историю чтения?</string>
-<string name="enable_check_for_updates">Включить проверку на обновления?</string>
 <string name="edit">"Редактировать"</string>
 
 <!-- Dialog Descriptions -->
@@ -41,9 +34,6 @@
 <string name="delete_book_description">Это удалит эту книгу из базы данных. Это не удалит эту книгу с вашего устройства.</string>
 <string name="move_book_description">Выберите категорию, в которую хотите переместить эту книгу. Эта книга будет перемещена в выбранную категорию.</string>
 <string name="delete_history_description">Это удалит всю историю из базы данных. После удаления всей истории порядок книг будет сброшен.</string>
-<string name="update_app_description">Новая версия приложения была найдена. Хотите продолжить и перейти на страницу релиза?</string>
-<string name="enable_check_for_updates_description">Включив опцию «Проверять на обновления», приложение будет получать информацию о последнем релизе с «api.github.com» каждый раз, когда приложение запускается. Хотите продолжить и включить «Проверять на обновления»?</string>
-
 <!-- Errors -->
 <string name="error_permission">"Нам нужно разрешение на хранилище, чтобы просканировать ваше устройство на наличие книг"</string>
 <string name="error_no_description">Нет описания</string>
@@ -53,7 +43,6 @@
 <string name="error_no_browser">Не найдено ни одного браузера.</string>
 <string name="error_no_share_app">Не найдено приложения для обмена.</string>
 <string name="error_could_not_get_text">Содержимое книги пусто. Пожалуйста, убедитесь, что содержимое книги не пусто и обновлено.</string>
-<string name="error_check_internet">Что-то пошло не так. Попробуйте позже.</string>
 <string name="error_could_not_reset_cover">Не удалось сбросить обложку.</string>
 <string name="error_closed_source">Закрытый код</string>
 <string name="error_no_file">"Файла не существует"</string>
@@ -66,7 +55,7 @@
 
 <!-- Query strings -->
 <string name="selected_items_count_query">"%1$s выбрано"</string>
-<string name="update_query">Обновление %1$s</string>
+
 <string name="color_preset_query">"Пресет %1$s"</string>
 <string name="color_preset_selected_query">"Выбрано «%1$s»"</string>
 
@@ -103,7 +92,7 @@
 <string name="author">"Автор"</string>
 
 <!-- Tabs -->
-<string name="reading_tab">"Чтение"</string>
+<string name="reading_tab">"Читаю"</string>
 <string name="already_read_tab">"Прочитано"</string>
 <string name="planning_tab">"Планирую"</string>
 <string name="dropped_tab">"Брошено"</string>
@@ -111,17 +100,17 @@
 <string name="color_tab">"Цвета"</string>
 <string name="filter_tab">"Фильтр"</string>
 <string name="sort_tab">"Сортировка"</string>
-<string name="reader_tab">"Читатель"</string>
+<string name="reader_tab">"Чтение"</string>
 
 <!-- Settings categories -->
-<string name="general_settings">"Главные"</string>
+<string name="general_settings">"Основные"</string>
 <string name="general_settings_desc">"Язык приложения"</string>
 <string name="appearance_settings">"Внешний вид"</string>
 <string name="appearance_settings_desc">"Тема, цвета"</string>
-<string name="reader_settings">"Читатель"</string>
+<string name="reader_settings">"Чтение"</string>
 <string name="reader_settings_desc">"Шрифт, текст, переводчик"</string>
 <string name="browse_settings">"Обзор"</string>
-<string name="browse_settings_desc">"Главные, фильтр, сортировка"</string>
+<string name="browse_settings_desc">"Отображение, фильтр, сортировка"</string>
 
 <!-- Settings subcategories -->
 <string name="font_reader_settings">"Шрифт"</string>
@@ -137,7 +126,7 @@
 <string name="progress_reader_settings">"Прогресс"</string>
 <string name="theme_appearance_settings">"Настройки темы"</string>
 <string name="colors_appearance_settings">"Цвета"</string>
-<string name="general_browse_settings">"Главные"</string>
+<string name="general_browse_settings">"Отображение"</string>
 <string name="filter_browse_settings">"Фильтр"</string>
 <string name="sort_browse_settings">"Сортировка"</string>
 
@@ -150,8 +139,6 @@
 <string name="absolute_dark_option_desc">Изменить цвет фона на полностью чёрный</string>
 <string name="theme_contrast_option">Контрастность темы</string>
 <string name="app_theme_option">"Тема приложения"</string>
-<string name="check_for_updates_option">"Проверять на обновления"</string>
-<string name="check_for_updates_option_desc">"Проверять на более новую версию приложения при запуске"</string>
 <string name="double_press_exit_option">"Двойной клик для выхода"</string>
 <string name="double_press_exit_option_desc">"Нажмите назад дважды, чтобы выйти из приложения"</string>
 
@@ -179,9 +166,9 @@
 <string name="cutout_padding_option_desc">"Добавьте поле в область выреза"</string>
 <string name="fullscreen_option">"Полный экран"</string>
 <string name="fullscreen_option_desc">"Скрыть системные панели и поля"</string>
-<string name="keep_screen_on_option">"Держать экран включённым"</string>
+<string name="keep_screen_on_option">"Не отключать экран"</string>
 <string name="hide_bars_on_fast_scroll_option">"Скрывать панели при быстрой прокрутке"</string>
-<string name="perception_expander_option">Розширення сприйняття</string>
+<string name="perception_expander_option">Расширение восприятия</string>
 <string name="perception_expander_option_desc">"Увеличьте скорость вашего чтения, фокусируясь на середине"</string>
 <string name="perception_expander_padding_option">"Боковые отступы линии"</string>
 <string name="perception_expander_thickness_option">"Толщина линии"</string>
@@ -252,17 +239,17 @@
 <string name="browse_sort_order_file_size">"Размер файла"</string>
 
 <!-- Text Alignment properties -->
-<string name="alignment_start">"Старт"</string>
-<string name="alignment_justify">"Равномерно"</string>
-<string name="alignment_center">"Центр"</string>
-<string name="alignment_end">"Конец"</string>
+<string name="alignment_start">"Слева"</string>
+<string name="alignment_justify">"По ширине"</string>
+<string name="alignment_center">"По центру"</string>
+<string name="alignment_end">"Справа"</string>
 
 <!-- Screen Orientation properties -->
 <string name="screen_orientation_free">"Свободно"</string>
-<string name="screen_orientation_portrait">Портрет</string>
-<string name="screen_orientation_landscape">"Альбом"</string>
-<string name="screen_orientation_locked_portrait">"Заблокирован портрет"</string>
-<string name="screen_orientation_locked_landscape">Заблокирован альбом</string>
+<string name="screen_orientation_portrait">Портретная свободная</string>
+<string name="screen_orientation_landscape">"Альбомная свободная"</string>
+<string name="screen_orientation_locked_portrait">"Портретная заблокированная"</string>
+<string name="screen_orientation_locked_landscape">Альбомная заблокированная</string>
 
 <!-- Horizontal Gesture properties -->
 <string name="horizontal_gesture_off">"Выключен"</string>
@@ -318,7 +305,6 @@
 <string name="book_moved">Эта книга была успешно перемещена.</string>
 <string name="copied">"Скопировано."</string>
 <string name="history_deleted">"История была успешно удалена."</string>
-<string name="no_updates">"Последняя версия приложения уже установлена."</string>
 <string name="cover_reset">Обложка была успешно сброшена.</string>
 <string name="title_changed">"Название было успешно изменено."</string>
 <string name="author_changed">"Автор был успешно изменен."</string>
@@ -344,7 +330,6 @@
 <!-- About -->
 <string name="app_version_option">"Версия приложения"</string>
 <string name="app_version_option_desc_1">"Book's Story v%1$s"</string>
-<string name="app_version_option_desc_2">"Нажмите, чтобы проверить обновления"</string>
 <string name="report_bug_option">Сообщить об ошибке</string>
 <string name="whats_new_option">"Что нового"</string>
 <string name="licenses_option">"Лицензии с открытым кодом"</string>
@@ -423,8 +408,6 @@
 <string name="start_permissions_granted">"Предоставлено"</string>
 <string name="start_permissions_storage">"Разрешение на хранилище"</string>
 <string name="start_permissions_storage_desc">"Необходим для сканирования вашего устройства и поиска книг"</string>
-<string name="start_permissions_notifications">"Разрешение на уведомления"</string>
-<string name="start_permissions_notifications_desc">"Необходимо для проверки приложения на новую версию"</string>
 <string name="start_done">"Все готово!"</string>
 <string name="start_done_desc">"Вы успешно завершили базовую настройку приложения. Хотите узнать, как пользоваться приложением, прочитав экран справки?"</string>
 
