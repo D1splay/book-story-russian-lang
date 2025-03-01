@@ -336,7 +336,7 @@
     <string name="credits_option">"Заслуги"</string>
     <string name="help_translate_option">"Помочь перевести"</string>
     <string name="contributors_option">Контрибьюторы</string>
-    <string name="slava_ukraini">нет</string>
+    <string name="slava_ukraini">-</string>
 
     <!-- Credits -->
     <string name="credits_design">Библиотеку</string>
@@ -447,7 +447,7 @@
     <string name="delete_color_preset_content_desc">"Удалить пресет цветов"</string>
     <string name="create_color_preset_content_desc">"Создать новый пресет цветов"</string>
     <string name="shuffle_color_preset_content_desc">"Перемешать цвета"</string>
-    <string name="tryzub_content_desc">А вообще это кто-то читает?</string>
+    <string name="tryzub_content_desc"></string>
     <string name="github_profile_content_desc">"GitHub Профиль"</string>
     <string name="drag_content_desc">Тянуть</string>
     <string name="filter_content_desc">"Фильтр"</string>
