@@ -140,6 +140,7 @@ _Help translate the app on [Hosted Weblate](https://hosted.weblate.org/engage/bo
 
 ## 🤗 Credits
 
+- [Capybara)](https://github.com/D1splay) (GitHub)
 - [Tachiyomi (Mihon)](https://github.com/mihonapp/mihon) (GitHub)
 - [Kitsune](https://github.com/Drumber/Kitsune) (GitHub)
 - [Voyager](https://voyager.adriel.cafe/) (Voyager Website)
