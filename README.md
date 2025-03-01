@@ -108,7 +108,7 @@ or [Matrix server](https://matrix.to/#/#book-story:matrix.org)).
 
 ## 🌐 Translation
 
-[<img src="[https://hosted.weblate.org/widget/book-story/book-story-translation/horizontal-auto.svg](https://raw.githubusercontent.com/D1splay/book-story-russian-lang/839594a8750abcfdf9b0249f16a711d25a8c8099/fastlane/metadata/android/en-US/images/pic.svg)" alt="Translation progress">](https://hosted.weblate.org/engage/book-story/)
+[<img src="https://raw.githubusercontent.com/D1splay/book-story-russian-lang/839594a8750abcfdf9b0249f16a711d25a8c8099/fastlane/metadata/android/en-US/images/pic.svg" alt="Translation progress">](https://hosted.weblate.org/engage/book-story/)
 <br/>
 
 _Help translate the app on [Hosted Weblate](https://hosted.weblate.org/engage/book-story/)._
