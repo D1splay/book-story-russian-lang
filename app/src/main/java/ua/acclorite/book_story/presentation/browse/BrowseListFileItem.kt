@@ -41,10 +41,10 @@ import java.util.Locale
 fun RowScope.BrowseListFileItem(file: SelectableFile) {
     val lastModified = rememberSaveable {
         SimpleDateFormat("HH:mm dd MMM yyyy", Locale.getDefault())
-            .format(Date(file.lastModified))
+            .format(Date(file.data.lastModified))
     }
 
-    val sizeBytes = rememberSaveable { file.size }
+    val sizeBytes = rememberSaveable { file.data.size }
     val fileSizeKB = rememberSaveable {
         if (sizeBytes > 0) sizeBytes.toDouble() / 1024.0 else 0.0
     }
@@ -77,13 +77,13 @@ fun RowScope.BrowseListFileItem(file: SelectableFile) {
                 contentDescription = stringResource(id = R.string.file_icon_content_desc),
                 modifier = Modifier
                     .size(22.dp),
-                tint = MaterialTheme.colorScheme.primary
+                tint = MaterialTheme.colorScheme.secondary
             )
         }
         Spacer(modifier = Modifier.width(12.dp))
         Column(verticalArrangement = Arrangement.Center) {
             StyledText(
-                text = file.name,
+                text = file.data.name,
                 modifier = Modifier.fillMaxWidth(),
                 style = MaterialTheme.typography.bodyLarge.copy(
                     color = MaterialTheme.colorScheme.onSurface,
