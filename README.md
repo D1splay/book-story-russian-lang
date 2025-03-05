@@ -71,18 +71,10 @@ open-source, offering you a personalized, ad-free journey through your favorite 
 
 ### 📲 How to download and install
 
-- _**Installing from GitHub, GitLab, Codeberg**_: Click the "Get it on ..." badge above, select
+- _**Installing from GitHub**_: Click the "Get it on ..." badge above, select
   desired release, scroll down, and download
   **book-story.apk**. Once downloaded, locate the APK file and install it.
-- _**Installing from F-Droid**_: Click the "Get it on F-Droid" badge above, scroll down, and click "
-  Download APK" under your desired release version to download the APK file. Once downloaded, locate
-  the file and install it.
-- _**Installing from IzzyOnDroid**_: Click the "Get it on IzzyOnDroid" badge above, scroll down, and
-  click "Download" to get the latest APK from IzzyOnDroid. Once downloaded, locate the file and
-  install it.
-- If you're unsure how to install an APK file,
-  follow [this](https://www.lifewire.com/install-apk-on-android-4177185) guide.
-
+  
 ---
 
 ### 🧭 Afterwards
@@ -122,7 +114,7 @@ _Help translate the app on [Hosted Weblate](https://hosted.weblate.org/engage/bo
 - **Report bugs.** Encountered a crash or something went wrong? Create a new *Issue* with as much
   detail as possible to help resolve it.
 - **Translate the app.** You can help make the app accessible in multiple languages. To contribute,
-  visit [Hosted Weblate](https://hosted.weblate.org/engage/book-story/).[^1].
+  visit [Hosted Weblate](https://hosted.weblate.org/engage/book-story/)[^1].
 - **Enjoy the app.** The best contribution is simply using and enjoying the app I spent so much time
   on!
 
