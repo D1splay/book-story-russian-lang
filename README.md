@@ -122,7 +122,7 @@ _Help translate the app on [Hosted Weblate](https://hosted.weblate.org/engage/bo
 - **Report bugs.** Encountered a crash or something went wrong? Create a new *Issue* with as much
   detail as possible to help resolve it.
 - **Translate the app.** You can help make the app accessible in multiple languages. To contribute,
-  visit [Hosted Weblate](https://hosted.weblate.org/engage/book-story/).
+  visit [Hosted Weblate](https://hosted.weblate.org/engage/book-story/).[^1].
 - **Enjoy the app.** The best contribution is simply using and enjoying the app I spent so much time
   on!
 
